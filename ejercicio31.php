@@ -1,5 +1,5 @@
 <?php
-
+$txtNombre = $_POST["txtNombre"];
 
 
 
@@ -14,9 +14,15 @@
     <title>Document</title>
 </head>
 <body>
+    <?php if($_POST){
+
+    
+    echo "<strong>Hola </strong>". $txtNombre;
+    }
+    ?>
    <form action="ejercicio31.php" method="post">
 
-        <input type="text" name="txtNombre">
+        <input value= "<?php echo $txtNombre; ?>" type="text" name="txtNombre">
 
         <input type="submit" value="Enviar informacion">
 
