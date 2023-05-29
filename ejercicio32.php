@@ -18,7 +18,7 @@
 </head>
 <body>
     <form action="ejercicio32.php" enctype="multipart/form-data" method="post">
-        Imagen:
+         Imagen:
 
         <input type="file" name="archivo">
 
