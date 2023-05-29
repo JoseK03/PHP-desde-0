@@ -15,7 +15,7 @@ $txtNombre = $_POST["txtNombre"];
 </head>
 <body>
     <?php if($_POST){
-
+ 
     
     echo "<strong>Hola </strong>". $txtNombre;
     }
